@@ -1,4 +1,4 @@
-{% for item in site.data.samplelist.toc %}
+{% for item in site.data.toc.toc %}
   <h3>{{ item.title }}</h3>
     <ul>
       {% for entry in item.subfolderitems %}
