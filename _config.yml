@@ -15,7 +15,7 @@ avatar: https://gizrak.github.io/images/gizrak.jpg
 collections:
   wiki:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:path
 
 #
 # Flags below are optional
