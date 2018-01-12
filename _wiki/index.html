@@ -3,5 +3,8 @@ layout: page
 ---
 
 {% for item in site.wiki %}
+  {% if item.title is 'index' %}
+    {% continue %}
+  {% endif %}
   <a href="{{ item.url }}">{{ item.title }}</a>&nbsp;
 {% endfor %}
