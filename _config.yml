@@ -11,6 +11,11 @@ description: FinTech Engineer from Somewhere
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://gizrak.github.io/images/gizrak.jpg
 
+# Collections
+collections:
+  wiki:
+    output: true
+
 #
 # Flags below are optional
 #
