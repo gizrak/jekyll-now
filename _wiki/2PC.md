@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2PC
-category: wiki
 ---
 
 # 2PC Intro
+What is 2PC?
