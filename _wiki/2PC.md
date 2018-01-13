@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: wiki
 title: 2PC
+toc: true
 ---
 
 ### 2PC의 개요
@@ -39,3 +40,4 @@ title: 2PC
 |------|---------------------|---------------------|
 | 1단계 Prepare | Prepare 메시지를 각 참여자에 송신<br>모든 참여자의 응답(y/n) 수집<br>응답 없으면 타임아웃, no으로 간주 | Prepare 메시지를 waiting<br>트랜잭션 준비되면 yes 전달<br>준비되지 못하는 상태이면 no 전달|
 | 2단계 Commit | 모든 참여자가 준비상태 yes이면 commit 송신<br>하나라도 no이면 rollback 송신 | 조정자의 commit/rollback을 waiting<br>조정자가 보내온 결과대로 올바르게 수행<br>수행완료 메시지 송신 |
+{:.mbtablestyle}
