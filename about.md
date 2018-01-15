@@ -6,14 +6,17 @@ permalink: /about/
 
 Some information about you!
 
+### Career
+
 ### More Information
 
 A place to include any other types of information that you'd like to include about yourself.
 
 ### Old Blog
 
-https://gizrakblog.wordpress.com
+My old blog archived on Wordpress.
+<https://gizrakblog.wordpress.com>
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[doodyfree@gmail.com](mailto:doodyfree@gmail.com)
