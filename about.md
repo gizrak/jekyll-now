@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+<https://about.me/gizrak>
 
 ### Career
 
