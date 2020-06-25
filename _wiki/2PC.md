@@ -1,7 +1,6 @@
 ---
 layout: wiki
 title: 2PC
-toc: true
 ---
 
 ### 2PC의 개요

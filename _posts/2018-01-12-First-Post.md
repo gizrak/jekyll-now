@@ -1,6 +1,9 @@
 ---
-layout: post
-title: Hello World
+title: "Hello World"
+categories:
+  - 블로그
+tags:
+  - Python
 ---
 
 I started my blog with GitHub pages.
