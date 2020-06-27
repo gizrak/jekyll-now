@@ -4,12 +4,18 @@ title: "About"
 permalink: /about/
 toc: true
 toc_sticky: true
-last_modified_at: 2020-06-25T13:08:22-04:00
+last_modified_at: 2020-06-28T01:26:22+09:00
 ---
 
 <https://about.me/gizrak>
 
 경험이 없으면 노력을 한다. 경험이 쌓이는 만큼 노력은 요령으로 대체된다. 어떤 과정이든 한쪽으로 치우치지 않고 밸런스를 유지하는 것이 가장 어렵다. 항상 밸런스를 유지하고 기억하고 기록하는 습관을 가져야 한다.
+
+## Who
+
+- 프로그래머 / 두 아이의 아빠 / 산골소년
+- 밥벌이는 Java / 취미는 Python
+- 통기타 / 수영 / 수초 물생활 / 콘솔게임 / 레트로 게임
 
 ## Career
 
@@ -20,97 +26,18 @@ last_modified_at: 2020-06-25T13:08:22-04:00
   - 삼성전자 모바일 서비스 백엔드 개발 6년
   - 대전정부청사 공공SI 시스템 개발 4년
 
-## Demo Apps
+## Apps
 
 | Name | Description |
 | ---- | ----------- |
 | [Lab](http://gizrak-lab.herokuapp.com) | Lab 페이지 |
-| [Badook](https://gizrak-badook.herokuapp.com)| Web canvas로 구현한 바둑 |
-| [Worldcup](https://gizrak-worldcup.herokuapp.com) | 나만의 월드컴 |
+| [Badook](https://gizrak-badook.herokuapp.com)| Web으로 구현한 바둑 |
+| [Worldcup](https://gizrak-worldcup.herokuapp.com) | 나만의 월드컵 |
 
-### Public Key
-* <https://keybase.io/gizrak/key.asc>
+## Public Key
+
+- <https://keybase.io/gizrak/key.asc>
 
 ```bash
 curl https://keybase.io/gizrak/key.asc | gpg --import
 ```
-
-```bash
------BEGIN PGP PUBLIC KEY BLOCK-----
-Version: Keybase OpenPGP v2.1.13
-Comment: https://keybase.io/crypto
-
-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
-=J1FM
------END PGP PUBLIC KEY BLOCK-----
-```
-
