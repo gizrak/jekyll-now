@@ -1,7 +1,6 @@
 ---
 layout: wiki
 title: ANT
-toc: true
 ---
 
 `Another Neat Tool`
@@ -19,5 +18,5 @@ toc: true
 1. FTP, Telnet, Application Server, SQL 명령어들을 배치 자동화에 사용할 수 있다.
 
 ### 참조
-* Ant 실행: http://naiyumie.tistory.com/801
-* Ant Tasks: https://ant.apache.org/manual/tasksoverview.html
+* Ant 실행: <http://naiyumie.tistory.com/801>
+* Ant Tasks: <https://ant.apache.org/manual/tasksoverview.html>

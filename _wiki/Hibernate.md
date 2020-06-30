@@ -1,7 +1,6 @@
 ---
 layout: wiki
 title: Hibernate
-toc: true
 ---
 
 ### 개요
@@ -10,7 +9,7 @@ toc: true
 그런데 우리가 JDBC와 같은 프로그래밍을 하게 되면 이 두개의 다른 개념에서 오는 차이를 극복해야 하는 순간이 발생한다. 물론 대부분의 프로그래머들은 그러한 차이를 인식하지도 못하고 넘어가는 경우가 태반이지만, 실제로 이러한 두 개념의 차이를 극복하기 위해 애쓰는 사람들이 존재한다. 그리하여 나온 개념이 바로 객체-관계형 매핑(ORM, Object-Relation Mapping)이다. Sun의 JDO와 아파치 그룹의 OJB와 같은 것이 그 예인데, Hibernate는 그러한 ORM을 구현한 프레임워크 중에 가장 유명한 프레임워크이다.
 
 ### 기본 설정
-다음은 Hibernate의 기본 설정파일인 'hibernate.cfg.xml'의 예이다.
+다음은 Hibernate의 기본 설정파일인 `hibernate.cfg.xml`의 예이다.
 
 ```xml
 <?xml version='1.0' encoding='utf-8'?>

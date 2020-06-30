@@ -1,0 +1,11 @@
+---
+layout: wiki
+title: Linux 프롬프트 EC2 인스턴스 이름으로 세팅
+---
+
+호스트명을 변경할 수도 있지만 아래와 같이 EC2 인스턴스 이름으로 처리되게 할 수 있다.
+
+```sh
+TAGNAME=`(aws ec2 describe-tags --filters "Name=tag:Name,Values=*" "Name=resource-type,Values=instance" "Name=resource-id,Values=$(curl --silent http://169.254.169.254/latest/meta-data/instance-id)" | awk '{ print $5 }')`
+[ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[$TAGNAME][\u:\w]\\$ "
+```

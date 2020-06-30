@@ -1,7 +1,6 @@
 ---
 layout: wiki
 title: Tiny OS
-toc: true
 ---
 
 ### Tiny OS 개요
@@ -20,9 +19,9 @@ toc: true
 |분류|구성요소|설명|
 |----|--------|----|
 |HW 영역|Wireless Driver|RF 무선 통신을 위한 표준 기술<br>Bluetooth, zigbee 등|
-|~|Sensor Driver|센서처리를 위한 HW, accelerometer, gyro 센서 등|
+| |Sensor Driver|센서처리를 위한 HW, accelerometer, gyro 센서 등|
 |SW 영역|OS Kernel|센서처리, 무선통신 처리, 스케쥴 처리|
-|~|응용 SW|컴포넌트 기반으로 동작<br>한번에 하나의 Application만 서비스 가능|
+| |응용 SW|컴포넌트 기반으로 동작<br>한번에 하나의 Application만 서비스 가능|
 
 #### Tiny OS의 구성도
 ![](http://cfile23.uf.tistory.com/image/17519F404E93D8F8027CE7)

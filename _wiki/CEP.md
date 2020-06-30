@@ -1,12 +1,13 @@
 ---
 layout: wiki
 title: CEP
-toc: true
 ---
 
+`Complex Event Processing`
+
 ### CEP의 개요
-#### CEP(Complex Event Processing)의 정의
-여러 이벤트 소스로부터 발생한 이벤트를 대상으로 실시간으로 의미 있는 데이터를 추출하여 대응되는 액션을 수행하는 기술
+#### CEP의 정의
+> 여러 이벤트 소스로부터 발생한 이벤트를 대상으로 실시간으로 의미 있는 데이터를 추출하여 대응되는 액션을 수행하는 기술
 
 #### CEP의 특징
 * 경량 서버의 CEP 엔진: 복잡한 이벤트 처리를 위한 CEP 주요 기능 제공

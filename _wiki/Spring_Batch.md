@@ -1,7 +1,6 @@
 ---
-title: Spring Batch
 layout: wiki
-toc: true
+title: Spring Batch
 ---
 
 ### Batch

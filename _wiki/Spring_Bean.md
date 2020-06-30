@@ -1,7 +1,6 @@
 ---
-title: Spring Bean
 layout: wiki
-toc: true
+title: Spring Bean
 ---
 
 ### Definition

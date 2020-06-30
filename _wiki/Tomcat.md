@@ -1,13 +1,12 @@
 ---
 layout: wiki
 title: Tomcat
-toc: true
 ---
 
 ### Tomcat Apache 연계
 
-| mod_jk | proxy_ajp |
-|--------|-----------|
+| OS | mod_jk | proxy_ajp |
+|----|--------|-----------|
 |Windows|<http://openframework.or.kr/Wiki.jsp?page=Apache_tomcat_using_jk_on_windows>|<http://openframework.or.kr/Wiki.jsp?page=Apache_tomcat_using_modproxy_on_windows>|
 |Linux|<http://openframework.or.kr/Wiki.jsp?page=Apache_tomcat_using_jk_on_linux>|<http://openframework.or.kr/Wiki.jsp?page=Apache_tomcat_using_modproxy_on_linux>|
 
@@ -30,7 +29,7 @@ export JAVA_OPTS="$MEM_OPTS"
 ```
 
 ### catalina.out 로그 rotate
-```rotate
+```
 # /etc/logrotate.d/tomcat7
 /var/log/tomcat7/catalina.out {
     copytruncate

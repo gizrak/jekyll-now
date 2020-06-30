@@ -1,7 +1,6 @@
 ---
 layout: wiki
 title: Apache
-toc: true
 ---
 
 ### access log에 응답시간 기록
@@ -21,11 +20,11 @@ LogFormat "%{User-agent}i" agent
 ```
 
 ### 참조
-* Apache2와 Tomcat5 연결하기 http://wiki.kldp.org/wiki.php/Apache2Tomcat5Howto
-* 우분투에서 APM 설치 http://supaflow.tistory.com/120
-* 아파치 가상 호스트와 톰캣의 연결 http://blog.sragent.pe.kr/archive/20080420
-* Apache+Tomcat 설치 http://lab.jinbo.net/drupal/node/96
-* Apache + Tomcat 연동 http://babtingdev.tistory.com/189
+* Apache2와 Tomcat5 연결하기 <http://wiki.kldp.org/wiki.php/Apache2Tomcat5Howto>
+* 우분투에서 APM 설치 <http://supaflow.tistory.com/120>
+* 아파치 가상 호스트와 톰캣의 연결 <http://blog.sragent.pe.kr/archive/20080420>
+* Apache+Tomcat 설치 <http://lab.jinbo.net/drupal/node/96>
+* Apache + Tomcat 연동 <http://babtingdev.tistory.com/189>
 
 ### conf.d
 #### jenkins.conf
@@ -49,7 +48,7 @@ RewriteRule ^/(.*)$ ajp://localhost:8009/$1 [P,QSA,L]
 #### redmine.conf
 * 아래 작업을 위해서 gem을 통해 passenger 관련 모듈을 설치해서 하는 것이 편하다.
 
-```shell
+```sh
 $ gem install passenger
 $ passenger-install-apache2-module
 ```
@@ -328,7 +327,7 @@ RewriteRule ^/(.*)$ ajp://localhost:8009/$1 [P,QSA,L]
 ```
 
 ##### svn.htpasswd
-```shell
+```sh
 $ htpasswd -c svn.htpasswd
 $ htpasswd svn.htpasswd user1
 $ htpasswd svn.htpasswd user2

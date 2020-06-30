@@ -1,12 +1,11 @@
 ---
 layout: wiki
 title: ARP Spoofing
-toc: true
 ---
 
 ### ARP 스푸핑의 개요
 #### ARP 스푸핑의 정의
-근거리 통신망 하에서 주소 결정 프로토콜(ARP) 메시지를 이용하여 상대방의 데이터 패킷을 중간에서 가로채는 [[중간자 공격]] 기법
+> 근거리 통신망 하에서 주소 결정 프로토콜(ARP) 메시지를 이용하여 상대방의 데이터 패킷을 중간에서 가로채는 [중간자 공격](/wiki/MITM) 기법
 
 #### ARP 스푸핑의 개념도
 ![](http://www.boannews.com/media/upFiles/k_1_1_.jpg)

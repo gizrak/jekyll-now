@@ -3,9 +3,11 @@ layout: wiki
 title: 2PC
 ---
 
+`Two Phase Commit`
+
 ### 2PC의 개요
-#### 2PC(2 Phase Commit)의 정의
-분산 컴퓨팅 환경에서 원자성 보장을 위해 트랜잭션에 관련된 모든 데이터베이스 노드가 성공적으로 수정 되었음을 관리하는 기술
+#### 2PC 정의
+> 분산 컴퓨팅 환경에서 원자성 보장을 위해 트랜잭션에 관련된 모든 데이터베이스 노드가 성공적으로 수정 되었음을 관리하는 기술
 
 #### 2PC의 필요성
 * 분산 데이터베이스 환경에서는 단일 노드별 Commit과 Rollback 수행
@@ -18,10 +20,13 @@ title: 2PC
 ![2PC](http://lig-membres.imag.fr/krakowia/Files/MW-Book/Chapters/Transact/Chapters/Transact/Figs/two-pc.gif)
 
 #### 2PC의 구성요소
-* 서버(Server): 원격 노드에서 요구하는 데이터를 갖고 있는 노드
-* 조정자(Coordinator): 분산 트랜잭션 참여자 목록을 관리하고 Global commit 등을 전파 및 제어하는 노드
-* 참여자(Participant): 분산 트랜잭션에서 지역 트랜잭션을 수행하는 노드
-* 클라이언트(Client): 분산 트랜잭션을 발생시키는 응용 프로그램이 위치한 노드
+
+|구성요소|설명|
+|------|---|
+|서버(Server) | 원격 노드에서 요구하는 데이터를 갖고 있는 노드|
+|조정자(Coordinator)| 분산 트랜잭션 참여자 목록을 관리하고 Global commit 등을 전파 및 제어하는 노드|
+|참여자(Participant) | 분산 트랜잭션에서 지역 트랜잭션을 수행하는 노드|
+|클라이언트(Client) | 분산 트랜잭션을 발생시키는 응용 프로그램이 위치한 노드|
 
 #### 2PC의 프로세스
 1. 조정자는 최초 요구에 연계되어, 관련된 모든 컴퓨터들을 대신하여 트랜잭션을 조정
