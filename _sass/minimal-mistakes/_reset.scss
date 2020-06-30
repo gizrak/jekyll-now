@@ -15,11 +15,11 @@ html {
   }
 
   @include breakpoint($large) {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   @include breakpoint($x-large) {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   -webkit-text-size-adjust: 100%;
@@ -185,3 +185,4 @@ textarea {
   overflow: auto; /* remove vertical scrollbar in IE6-9*/
   vertical-align: top; /* readability and alignment cross-browser*/
 }
+
