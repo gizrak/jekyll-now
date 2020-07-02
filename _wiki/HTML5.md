@@ -1,23 +1,22 @@
 ---
-layout: wiki
 title: HTML5
 ---
 
-### HTML5의 개요
-#### HTML5의 정의
+## HTML5의 개요
+### HTML5의 정의
 월드 와이드 웹(World Wide Web)의 핵심 마크업 언어인 HTML의 5번째 최신 표준 기술
 
-#### HTML5의 역사
+### HTML5의 역사
 * 2007년 5월: HTML5와 Web Forums 2.0 스펙 채택
 * 2007년 11월: HTML5 디자인 원칙 작업 초안
 * 2010년 1월: HTML5 Last Call 작업 초안
 * 2010년 8월: HTML5 Working Draft 공개
 
-### HTML5의 개념과 특징
-#### HTML5의 개념도
+## HTML5의 개념과 특징
+### HTML5의 개념도
 ![](http://1.bp.blogspot.com/-jEk4go_VtqA/U7AEEgrQ02I/AAAAAAAAAHk/qzIxktI1ei0/s1600/HMTL5+issue_01.png)
 
-#### HTML5의 주요 특징
+### HTML5의 주요 특징
 
 |특징|내용|시사점|
 |----|----|------|
@@ -30,7 +29,7 @@ title: HTML5
 |Connectivity|클라이언트와 서버 간의 효율적인 통신 기능 제공을 통한 웹 기반 커뮤니케이션 효율 대폭 강화|웹에서의 다양한 통신기능(메시징, 응용 간 통신 등) 제공을 통한 응용 개발 범위 확대|
 |CSS3 Styling Effect|기존 웹 문서의 변경과 성능저하 없이 웹 어플리케이션의 UI(스타일과 효과 등) 기능을 대폭 강화|UI 측면에서 [[N-스크린]] 서비스 제공 가능|
 
-#### HTML5의 주요 기능
+### HTML5의 주요 기능
 
 |기능|상세|설명|
 |----|----|------|
@@ -47,24 +46,24 @@ title: HTML5
 |Web Socket|웹 애플리케이션과 서버간의 양방향 통신 기능 제공|
 |CSS3|웹 애플리케이션의 다양한 스타일 및 효과를 나타내기 위한 CSS3 지원|
 
-### HTML5의 미래 발전 방향
+## HTML5의 미래 발전 방향
 * HTML5 기반 표준 최종 확정 이후에도 지속 발전 중
 * 웹 프레임워크를 기반으로 하는 단말 플랫폼을 위한 주요 기업들의 노력
 * WoT(Web of Thing) 이니셔티브 출범으로 사물인터넷 영역으로 확대
 * Automotive WG를 만들어 커넥티드 카에 필요한 HTML5 API 표준 개발
 
-### 커뮤니케이션 API
+## 커뮤니케이션 API
 커뮤니케이션 API는 HTML5뿐만 아니라 관련 API에서도 폭넓게 채용되어, 여러 프로그램 간에 비동기 방식으로 메시지를 주고받아 느슨한 결합(Loosely-Coupled) 데이터를 공유할 수 있게 됨. 여기서 말하는 메시지란 JavaScript 객체 혹은 단순 문자열.
 
-#### MessageEvent 인터페이스
+### MessageEvent 인터페이스
 * data: 송신되는 메시지의 내용이 되는 데이터
 * origin: 메시지 송신처의 도메인(크로스 도큐먼트 메시징과 Server-Sent Events에서만 사용됨)
 * lastEventId: 마지막 이벤트(Server-Sent Events에만 사용됨)
 * source: 메시지를 보내는 윈도우 객체(크로스 도큐먼트 메시징에서만 사용됨)
 * ports:메시지 송신 시 지정한 포트의 복사본(여러 개)(크로스 도큐먼트 메시징과 채널 메시징에서만 사용됨)
 
-#### 크로스 도큐먼트 메시징
+### 크로스 도큐먼트 메시징
 
-#### 채널 메시징
+### 채널 메시징
 
-#### 포트 공개
+### 포트 공개

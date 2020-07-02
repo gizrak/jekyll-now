@@ -1,26 +1,25 @@
 ---
-layout: wiki
 title: OLAP
 ---
 
 `Online Analytical Processing`
 
-### End User의 능동적 정보분석 기법, OLAP의 개요
-#### OLAP의 정의
+## End User의 능동적 정보분석 기법, OLAP의 개요
+### OLAP의 정의
 > DW에 저장된 대용량 데이터를 사용자가 쉽게 사용(질의, 가공, 보고서 작성, 분석)할 수 있도록 하는 데이터 처리 기법
 
-#### OLAP의 종류
+### OLAP의 종류
 * ROLAP: RDB와 SQL을 이용하여 다차원 데이터를 분석
 * MOLAP: 다차원 데이터에 저장과 처리 프로세스가 효과적으로 수행되고, 외부 요청에 대해서도 빠른 응답속도를 제공
 * HOLAP: 다차원 데이터의 저장 공간으로 다차원 데이터베이스와 관계형 데이터베이스를 함께 사용
 
-### OLAP의 비교
-#### 구성에 따른 ROLAP과 MOLAP의 비교
+## OLAP의 비교
+### 구성에 따른 ROLAP과 MOLAP의 비교
 
 ![img](http://image.slidesharecdn.com/olap-131028115452-phpapp02/95/olap-15-638.jpg?cb=1382961374)
 ![img](http://image.slidesharecdn.com/olap-131028115452-phpapp02/95/olap-12-638.jpg?cb=1382961374)
 
-#### 특징에 따른 ROLAP과 MOLAP의 비교
+### 특징에 따른 ROLAP과 MOLAP의 비교
 
 |구분|ROLAP|MOLAP|
 |---|-----|-----|
@@ -32,7 +31,7 @@ title: OLAP
 |장점|보편화 환경 및 확장성<br>다양한 도구 증대<br>비정형 질의를 포함한 검색 가능<br>DB Size에 대한 제한이 없음 |다차원 분석 빠른 수행<br>복잡한 비지니스 로직 쉽게 반영 |
 |단점|복잡한 분석이 어려움<br>수행속도가 낮음 |데이터 용량, 에러회복 능력, 하드웨어 활용이 부족<br>데이터 로딩 시 오래 걸림<br>Ad-hoc 질의 어려움 |
 
-### ROLAP과 MOLAP의 선정기준
+## ROLAP과 MOLAP의 선정기준
 
 |ROLAP|MOLAP|
 |-----|-----|

@@ -1,14 +1,13 @@
 ---
-layout: wiki
 title: Hibernate
 ---
 
-### 개요
+## 개요
 객체지향프로그래밍(OOP, Object Oriented Programming)은 우리에게 너무나도 익숙한 개념이 되었다. (물론 프로그래머들에게는...) 그런데 프로그램이 아닌 데이터베이스의 세계로 가보면 객체지향 데이터베이스는 지고 지금의 DBMS 시장은 관계형 데이터베이스(RDB, Relational DataBase)가 패권을 차지한 상태이다.
 
 그런데 우리가 JDBC와 같은 프로그래밍을 하게 되면 이 두개의 다른 개념에서 오는 차이를 극복해야 하는 순간이 발생한다. 물론 대부분의 프로그래머들은 그러한 차이를 인식하지도 못하고 넘어가는 경우가 태반이지만, 실제로 이러한 두 개념의 차이를 극복하기 위해 애쓰는 사람들이 존재한다. 그리하여 나온 개념이 바로 객체-관계형 매핑(ORM, Object-Relation Mapping)이다. Sun의 JDO와 아파치 그룹의 OJB와 같은 것이 그 예인데, Hibernate는 그러한 ORM을 구현한 프레임워크 중에 가장 유명한 프레임워크이다.
 
-### 기본 설정
+## 기본 설정
 다음은 Hibernate의 기본 설정파일인 `hibernate.cfg.xml`의 예이다.
 
 ```xml
@@ -54,7 +53,7 @@ title: Hibernate
 
 Optional configuration properties: <http://docs.jboss.org/hibernate/core/3.3/reference/en/html/session-configuration.html>
 
-#### List of Hibernate SQL Dialects|
+### List of Hibernate SQL Dialects|
 
 |RDBMS|Dialect|
 |-----|-------|
@@ -81,7 +80,7 @@ Optional configuration properties: <http://docs.jboss.org/hibernate/core/3.3/ref
 |FrontBase|org.hibernate.dialect.FrontbaseDialect|
 |Firebird|org.hibernate.dialect.FirebirdDialect|
 
-### Hibernate Logger
+## Hibernate Logger
 Hibernate를 사용하게 되면 기본적으로 slf4j 로거가 사용된다. 아래 두 라이브러리가 classpath에 위치해야 하며, 기존 log4j와 함께 사용하면서 로그정책을 적용하기 위해서는 아래와 같은 기준을 사용한다.
 * slf4j-api-1.6.1.jar
 * slf4j-jdk14-1.6.1.jar
@@ -104,7 +103,7 @@ Hibernate:
         (?, ?, ?)
 ```
 
-#### Logger Categories
+### Logger Categories
 
 |Category|Function|번역|
 |--------|--------|----|
@@ -119,13 +118,13 @@ Hibernate:
 |org.hibernate.hql.ast.AST|Log HQL and SQL ASTs during query parsing|쿼리를 파싱하는 동안 HQL과 SQL AST를 Logging|
 |org.hibernate.secure|Log all JAAS authorization requests|모든 JAAS 인증 요청을 Logging|
 
-### Hibernate Shard
+## Hibernate Shard
 
 Hibernate는 Shard를 지원(http://www.hibernate.org/subprojects/shards.html)한다. 그런데 문제는 여기서 제시하는 샘플은 기본적인 Hibernate의 SessionFactory를 생성하여 Shard를 구현한 것으로 Spring IOC를 이용하고자 할 때에는 문제가 있다. 따라서 아래와 같은 Custom 클래스를 작성하여 Spring으로 ShardedSessionFactory를 생성해보자.
 
 아래 샘플 외에도 아마존 문서(<http://aws.amazon.com/articles/0040302286264415?_encoding=UTF8&queryArg=searchQuery&x=0&fromSearch=1&y=0&searchPath=all&searchQuery=shard>)에도 잘 정리되어 있다.
 
-#### Spring Bean SessionFactory
+### Spring Bean SessionFactory
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -155,7 +154,7 @@ Hibernate는 Shard를 지원(http://www.hibernate.org/subprojects/shards.html)�
 </beans>
 ```
 
-#### ShardedSessionFactoryBean
+### ShardedSessionFactoryBean
 ```java
 @SuppressWarnings("rawtypes")
 public class ShardedSessionFactoryBean {
@@ -217,7 +216,7 @@ public class ShardedSessionFactoryBean {
 }
 ```
 
-#### Annotation VO @id Generator
+### Annotation VO @id Generator
 ```java
 @Entity
 @Table(name = "WEATHER_REPORT")
@@ -274,7 +273,7 @@ public class WeatherReportVer implements Serializable {
 }
 ```
 
-#### Table Sample
+### Table Sample
 ```sql
 CREATE TABLE WEATHER_REPORT (
     REPORT_ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,

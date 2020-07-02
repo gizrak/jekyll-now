@@ -1,21 +1,20 @@
 ---
-layout: wiki
 title: RAID
 ---
 
 `Redundant Array of Independent Disks`
 
-### RAID의 개요
-#### RAID의 정의
+## RAID의 개요
+### RAID의 정의
 > 다수의 작은 디스크를 배열로 결합해 장애 발생 요인을 최대로 제거한 고성능의 무정지 저장장치
 
-#### RAID의 특징
+### RAID의 특징
 1. Hot-Swap: 디스크 장애 시에도 시스템 정지 없이 새로운 디스크로 교체
 1. Virtual Disk: 여러 개의 디스크를 하나의 가상 디스크로 구성
 1. 분할 Read/Write: 다수의 하드디스크에 데이터를 병렬 전송하여 속도 향상
 1. Dual Host Interface: 1대 이상의 호스트를 접속해 경제적 데이터 관리 및 장애 최소화
 
-### RAID의 종류
+## RAID의 종류
 
 |종류|설명|장점|단점|
 |---|---|---|---|

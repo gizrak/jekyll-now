@@ -1,9 +1,8 @@
 ---
-layout: wiki
 title: Spring Bean
 ---
 
-### Definition
+## Definition
 * Spring에서 사용되는 [POJO](/POJO.md)
 * Spring IoC(Inversion of Control)로 인스턴스화, 관리, 생성되는 객체
 * 주요 속성
@@ -14,7 +13,7 @@ title: Spring Bean
   * property: 생성 시 bean setter에 전달할 인수
   * init method와 destroy method
 
-### Bean Scope
+## Bean Scope
 
 | Scope | Description |
 | -------- | -------- | -------- |

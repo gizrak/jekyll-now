@@ -1,20 +1,19 @@
 ---
-layout: wiki
 title: Tomcat
 ---
 
-### Tomcat Apache 연계
+## Tomcat Apache 연계
 
 | OS | mod_jk | proxy_ajp |
 |----|--------|-----------|
 |Windows|<http://openframework.or.kr/Wiki.jsp?page=Apache_tomcat_using_jk_on_windows>|<http://openframework.or.kr/Wiki.jsp?page=Apache_tomcat_using_modproxy_on_windows>|
 |Linux|<http://openframework.or.kr/Wiki.jsp?page=Apache_tomcat_using_jk_on_linux>|<http://openframework.or.kr/Wiki.jsp?page=Apache_tomcat_using_modproxy_on_linux>|
 
-### SSL 인증서 설치
+## SSL 인증서 설치
 * Tomcat에 SSL 인증서 설치하기 <http://whiteship.me/?p=13548>
 * 아파치 httpd에 SSL 인증서 설치하기 <http://whiteship.me/?p=13580>
 
-### WAS heap 메모리 상향 조정
+## WAS heap 메모리 상향 조정
 ```sh
 #export JAVA_HOME=/usr/lib/jvm/java-6-openjdk
 export JAVA_HOME=/usr/lib/jvm/jdk1.6.0_26
@@ -28,7 +27,7 @@ export MEM_OPTS="-Xms1024m -Xmx1024m -XX:MaxPermSize=256m -XX:NewSize=768m -XX:M
 export JAVA_OPTS="$MEM_OPTS"
 ```
 
-### catalina.out 로그 rotate
+## catalina.out 로그 rotate
 ```
 # /etc/logrotate.d/tomcat7
 /var/log/tomcat7/catalina.out {

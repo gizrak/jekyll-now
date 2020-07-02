@@ -1,9 +1,8 @@
 ---
-layout: wiki
 title: Apache
 ---
 
-### access log에 응답시간 기록
+## access log에 응답시간 기록
 * sites-enabled에서 default 파일을 보면 CustomLog가 combined로 되어 있음
 * apache2.conf에서 combined를 찾아서 아래와 같이 수정
 ```conf
@@ -19,15 +18,15 @@ LogFormat "%{Referer}i -> %U" referer
 LogFormat "%{User-agent}i" agent
 ```
 
-### 참조
+## 참조
 * Apache2와 Tomcat5 연결하기 <http://wiki.kldp.org/wiki.php/Apache2Tomcat5Howto>
 * 우분투에서 APM 설치 <http://supaflow.tistory.com/120>
 * 아파치 가상 호스트와 톰캣의 연결 <http://blog.sragent.pe.kr/archive/20080420>
 * Apache+Tomcat 설치 <http://lab.jinbo.net/drupal/node/96>
 * Apache + Tomcat 연동 <http://babtingdev.tistory.com/189>
 
-### conf.d
-#### jenkins.conf
+## conf.d
+### jenkins.conf
 
 ```conf
 # mod_proxy setup
@@ -36,7 +35,7 @@ ProxyPass / http://localhost:8080/
 ProxyPassReverse / http://localhost:8080/
 ```
 
-#### proxy.conf
+### proxy.conf
 * 아래와 같이 proxy.conf 파일을 세팅해 주면, Tomcat의 8080 포트를 Apache의 80포트로 연결시켜 줄 수 있다.
 * 그럼 굳이 mod_proxy와 mod_jk를 쓰지 않고도, 외부에서 80포트로 Tomcat 서비스로 접속이 가능하다.
 
@@ -45,7 +44,7 @@ RewriteEngine On
 RewriteRule ^/(.*)$ ajp://localhost:8009/$1 [P,QSA,L]
 ```
 
-#### redmine.conf
+### redmine.conf
 * 아래 작업을 위해서 gem을 통해 passenger 관련 모듈을 설치해서 하는 것이 편하다.
 
 ```sh
@@ -73,7 +72,7 @@ LoadModule passenger_module /usr/local/share/gems/gems/passenger-5.0.15/buildout
 #</VirtualHost>
 ```
 
-#### ssl.conf
+### ssl.conf
 
 ```conf
 #
@@ -301,7 +300,7 @@ RewriteRule ^/(.*)$ ajp://localhost:8009/$1 [P,QSA,L]
 </VirtualHost>
 ```
 
-#### svn.conf
+### svn.conf
 ##### 기본 설정 파일
 ```conf
 <Location /svn>
@@ -335,22 +334,22 @@ $ htpasswd svn.htpasswd user2
 
 ##### svn.authz
 ```properties
-### This file is an example authorization file for svnserve.
-### Its format is identical to that of mod_authz_svn authorization
-### files.
-### As shown below each section defines authorizations for the path and
-### (optional) repository specified by the section name.
-### The authorizations follow. An authorization line can refer to:
-###  - a single user,
-###  - a group of users defined in a special [groups] section,
-###  - an alias defined in a special [aliases] section,
-###  - all authenticated users, using the '$authenticated' token,
-###  - only anonymous users, using the '$anonymous' token,
-###  - anyone, using the '*' wildcard.
+## This file is an example authorization file for svnserve.
+## Its format is identical to that of mod_authz_svn authorization
+## files.
+## As shown below each section defines authorizations for the path and
+## (optional) repository specified by the section name.
+## The authorizations follow. An authorization line can refer to:
+##  - a single user,
+##  - a group of users defined in a special [groups] section,
+##  - an alias defined in a special [aliases] section,
+##  - all authenticated users, using the '$authenticated' token,
+##  - only anonymous users, using the '$anonymous' token,
+##  - anyone, using the '*' wildcard.
 ###
-### A match can be inverted by prefixing the rule with '~'. Rules can
-### grant read ('r') access, read-write ('rw') access, or no access
-### ('').
+## A match can be inverted by prefixing the rule with '~'. Rules can
+## grant read ('r') access, read-write ('rw') access, or no access
+## ('').
 
 [aliases]
 # joe = /C=XZ/ST=Dessert/L=Snake City/O=Snake Oil, Ltd./OU=Research Institute/CN=Joe Average

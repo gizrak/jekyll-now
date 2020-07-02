@@ -1,16 +1,15 @@
 ---
-layout: wiki
 title: OWASP
 ---
 
-### OWASP IoT Top 10의 개요
-#### OWASP IoT Top 10의 정의
+## OWASP IoT Top 10의 개요
+### OWASP IoT Top 10의 정의
 IoT 취약점 중 공격 빈도가 높으며, 보안상 큰 영향을 줄 수 있는 10가지 취약점 대응방안 가이드
 
-#### OWASP IoT Top 10의 개념도
+### OWASP IoT Top 10의 개념도
 ![img](http://image.slidesharecdn.com/2015appsecusav1-150918180933-lva1-app6891/95/owasp-appsec-usa-2015-san-francisco-43-638.jpg?cb=1442869027)
 
-### OWASP IoT Top 10의 주요 항목
+## OWASP IoT Top 10의 주요 항목
 
 |주요 항목|설명|
 |-------|---|

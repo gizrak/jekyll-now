@@ -1,19 +1,18 @@
 ---
-layout: wiki
 title: Tiny OS
 ---
 
-### Tiny OS 개요
-#### Tiny OS의 정의
+## Tiny OS 개요
+### Tiny OS의 정의
 * UC 버클리에서 개발된 센서 네트워크를 위한 무료 운영체제
 * HW, MAC 프로토콜, Network 프로토콜, 센서 I/F를 완전 공개한 작은 사이즈의 OS
 
-#### Tiny OS의 용도
+### Tiny OS의 용도
 * 저전력, 저용량의 시스템에서 사용
 * 임베디드 환경에서 센서 네트워크 구성 시 사용
 
-### Tiny OS의 구성도
-#### Tiny OS의 구성요소
+## Tiny OS의 구성도
+### Tiny OS의 구성요소
 일반 OS 관점의 커널과 드라이버, 그리고 Tiny OS 특화된 센서 및 통신 드라이버를 포함
 
 |분류|구성요소|설명|
@@ -23,10 +22,10 @@ title: Tiny OS
 |SW 영역|OS Kernel|센서처리, 무선통신 처리, 스케쥴 처리|
 | |응용 SW|컴포넌트 기반으로 동작<br>한번에 하나의 Application만 서비스 가능|
 
-#### Tiny OS의 구성도
+### Tiny OS의 구성도
 ![](http://cfile23.uf.tistory.com/image/17519F404E93D8F8027CE7)
 
-### Tiny OS 스케쥴링 방식
+## Tiny OS 스케쥴링 방식
 * Event Driven 구조
 * FIFO 형태의 스케쥴러로 동작 (전원이 꺼질 때까지 무한루프)
 

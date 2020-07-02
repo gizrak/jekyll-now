@@ -1,12 +1,11 @@
 ---
-layout: wiki
 title: NodeJS 기반의 stg prd 환경구축
 ---
 
 * NodeJS 기반으로 mysvc라는 이름의 서비스를 하나 구축한다.
 * 운영체제는 Linux, 웹서버는 Nginx, 저장소는 Git을 사용한다.
 
-### STG 환경
+## STG 환경
 
 1. 소스코드가 이미 있다고 가정하고 stg 디렉토리로 코드 pull
 
@@ -37,7 +36,7 @@ NODE_EXEC=$(which node)
 
 1. chkconfig: - 58 74
 1. description: node-app is the script for starting a node app on boot.
-### BEGIN INIT INFO
+## BEGIN INIT INFO
 1. Provides: node
 1. Required-Start:    $network $remote_fs $local_fs
 1. Required-Stop:     $network $remote_fs $local_fs
@@ -45,7 +44,7 @@ NODE_EXEC=$(which node)
 1. Default-Stop:      0 1 6
 1. Short-Description: start and stop node
 1. Description: Node process for app
-### END INIT INFO
+## END INIT INFO
 
 ###############
 
@@ -187,7 +186,7 @@ case "$1" in
 esac
 ```
 
-### PRD 환경
+## PRD 환경
 
 1. prd 디렉토리 생성 및 stg 환경 복사
 
@@ -218,7 +217,7 @@ NODE_EXEC=$(which node)
 
 1. chkconfig: - 58 74
 1. description: node-app is the script for starting a node app on boot.
-### BEGIN INIT INFO
+## BEGIN INIT INFO
 1. Provides: node
 1. Required-Start:    $network $remote_fs $local_fs
 1. Required-Stop:     $network $remote_fs $local_fs
@@ -226,7 +225,7 @@ NODE_EXEC=$(which node)
 1. Default-Stop:      0 1 6
 1. Short-Description: start and stop node
 1. Description: Node process for app
-### END INIT INFO
+## END INIT INFO
 
 ###############
 
@@ -379,7 +378,7 @@ npm install
 service prd restart
 ```
 
-### Nginx 설정
+## Nginx 설정
 
 1. stg, prd에 대한 reverse proxy 설정
 

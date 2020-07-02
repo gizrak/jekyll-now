@@ -1,14 +1,13 @@
 ---
-layout: wiki
 title: MySQL
 ---
 
 * MySQL 데이터타입: <http://ra2kstar.tistory.com/82>
 * MySQL 사용자: <http://gpgstudy.com/gpgiki/MySQL에서%20사용자와%20데이터베이스%20만들기>
 
-### DDL
+## DDL
 
-#### 테이블 생성
+### 테이블 생성
 
 ```sql
 CREATE TABLE TABLE_NAME (
@@ -20,77 +19,77 @@ CREATE TABLE TABLE_NAME (
 );
 ```
 
-#### 인덱스 생성
+### 인덱스 생성
 
 ```sql
 CREATE [UNIQUE] INDEX index_name ON tbl_name (col_name[(LENGTH]),... )
 ```
 
-#### 인덱스 삭제
+### 인덱스 삭제
 
 ```sql
 DROP INDEX index_name;
 ```
 
-### DML
+## DML
 
-#### 테이블에 새로운 컬럼 추가
+### 테이블에 새로운 컬럼 추가
 
 ```sql
 ALTER TABLE tablename ADD COLUMN [추가할 컬럼명] [추가할 컬럼 데이타형]
 ```
 
-#### 테이블에 컬럼타입 변경하기
+### 테이블에 컬럼타입 변경하기
 
 ```sql
 ALTER TABLE tablename MODIFY COLUMN [변경할 컬럼명] [변경할 컬럼 타입]
 ```
 
-#### 테이블에 컬럼이름 변경하기
+### 테이블에 컬럼이름 변경하기
 
 ```sql
 ALTER TABLE tablename CHANGE COLUMN [기존 컬럼명] [변경할 컬럼명] [변경할 컬럼타입]
 ```
 
-#### 테이블에 컬럼 삭제하기
+### 테이블에 컬럼 삭제하기
 
 ```sql
 ALTER TABLE tablename DROP COLUMN [삭제할 컬럼명]
 ```
 
-#### 테이블컬럼에 인덱스 주기
+### 테이블컬럼에 인덱스 주기
 
 ```sql
 ALTER TABLE tablename ADD INDEX 인덱스명(인덱스를 줄 컬럼1 , 인덱스를 줄 컬럼2, ... )
 ```
 
-#### 테이블컬럼에 인덱스 삭제하기
+### 테이블컬럼에 인덱스 삭제하기
 
 ```sql
 ALTER TABLE tablename DROP INDEX 인덱스명;
 ```
 
-#### 테이블에 Primary Key 만들기
+### 테이블에 Primary Key 만들기
 
 ```sql
 ALTER TABLE tablename ADD PRIMARY KEY (키를 줄 컬럼명1 , 키를 줄 컬럼명2, ...)
 ```
 
-#### 테이블에 Primary Key 삭제하기
+### 테이블에 Primary Key 삭제하기
 
 ```sql
 ALTER TABLE tablename DROP PRIMARY KEY;
 ```
 
-#### 테이블명 바꾸기
+### 테이블명 바꾸기
 
 ```sql
 ALTER TABLE 기존테이블명 RENAME 새로운테이블명
 ```
 
-### 시스템
+## 시스템
 
-#### 발생한 오류나 경고 다시 보기
+### 발생한 오류나 경고 다시 보기
 
 ```
 sql> SHOW errors;
@@ -100,7 +99,7 @@ sql> SHOW warnings;
 Empty SET (0.00 sec)
 ```
 
-#### 현재 상태 보기
+### 현재 상태 보기
 
 ```
 sql> STATUS
@@ -128,7 +127,7 @@ Threads: 50  Questions: 1119179  Slow queries: 0  Opens: 6613  FLUSH TABLES: 1  
 --------------
 ```
 
-### 간단한 설정
+## 간단한 설정
 
 ```
 thread_cache_size       = 16384 # default는 8
@@ -147,25 +146,25 @@ MySQL에서 현재 구동하고 있는 쿼리 프로세스들을 보기 위해�
 show full processlist;
 ```
 
-### root 암호 변경
+## root 암호 변경
 
-#### secure installation
+### secure installation
 ```sh
 $ mysql_secure_installation
 ```
 
-#### mysqladmin을 이용
+### mysqladmin을 이용
 ```sh
 $ mysqladmin -u root password new-password
 ```
 
-#### update문을 이용
+### update문을 이용
 ```sql
 UPDATE USER SET password = password('new-password') WHERE USER = 'root';
 FLUSH privileges;
 ```
 
-#### set password를 이용
+### set password를 이용
 ```sql
 SET password FOR root = password('new-password');
 ```

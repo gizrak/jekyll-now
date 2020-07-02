@@ -1,9 +1,8 @@
 ---
-layout: wiki
 title: WebGL
 ---
 
-### WebGL 강좌
+## WebGL 강좌
 1. Lesson 0: Getting started with WebGL <http://learningwebgl.com/blog/?p=11>
 1. WebGL Lesson 1 – A triangle and a square <http://learningwebgl.com/blog/?p=28>
 1. WebGL Lesson 2 – Adding colour <http://learningwebgl.com/blog/?p=134>
@@ -22,6 +21,6 @@ title: WebGL
 1. WebGL Lesson 15 – specular maps <http://learningwebgl.com/blog/?p=1778>
 1. WebGL Lesson 16 – rendering to textures <http://learningwebgl.com/blog/?p=1786>
 
-### 참고 사이트
+## 참고 사이트
 * WebGL - 웹상에서 3D MMORPG게임을 즐길수 있는 신세경의 세상이 얼마남지 않았다 <http://blog.nemesys.co.kr/tt/entry/WebGL-%EC%9B%B9%EC%83%81%EC%97%90%EC%84%9C-3D-MMORPG%EB%A5%BC-%EC%A6%90%EA%B8%B0%EB%8A%94-%EC%8B%A0%EC%84%B8%EA%B2%BD%EC%9D%98-%EC%84%B8%EC%83%81%EC%9D%B4-%EC%96%BC%EB%A7%88%EB%82%A8%EC%A7%80-%EC%95%8A%EC%95%98%EB%8B%A4>
 * Chrome WebGL Experiments <http://www.chromeexperiments.com/webgl>

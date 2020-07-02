@@ -1,5 +1,4 @@
 ---
-layout: wiki
 title: Linux 프롬프트 EC2 인스턴스 이름으로 세팅
 ---
 

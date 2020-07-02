@@ -1,5 +1,4 @@
 ---
-layout: wiki
 title: Linux 로그 분석
 ---
 
