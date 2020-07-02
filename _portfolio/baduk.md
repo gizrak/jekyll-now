@@ -8,7 +8,7 @@ sidebar:
   - title: "Site"
     image: /assets/images/baduk/baduk-placehold.jpg
     image_alt: "Baduk game"
-    text: <https://gizrak-badook.herokuapp.com/>
+    text: <https://gizrak-baduk.herokuapp.com/>
   - title: "Description"
     text: "Everyone can make their own game records on web"
 gallery:
