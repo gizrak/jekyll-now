@@ -4,7 +4,7 @@ title: "About"
 permalink: /about/
 toc: true
 toc_sticky: true
-last_modified_at: 2020-06-28T01:26:22+09:00
+last_modified_at: 2020-07-05T21:31:09+09:00
 ---
 
 경험이 없으면 노력을 한다. 경험이 쌓이는 만큼 노력은 요령으로 대체된다. 한쪽으로 치우치지 않고 밸런스를 유지하는 것은 어렵다. 항상 밸런스를 유지하고 기억하고 기록하는 습관을 가져야 한다.
@@ -33,7 +33,6 @@ last_modified_at: 2020-06-28T01:26:22+09:00
 | Name | Description |
 | ---- | ----------- |
 | [Lab](http://gizrak-lab.herokuapp.com) | Lab 페이지 |
-| [Worldcup](https://gizrak-worldcup.herokuapp.com) | 나만의 월드컵 |
 
 ## Public Key
 
@@ -42,4 +41,3 @@ last_modified_at: 2020-06-28T01:26:22+09:00
 ```bash
 curl https://keybase.io/gizrak/key.asc | gpg --import
 ```
-
