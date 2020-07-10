@@ -3,10 +3,10 @@ title: "Wordpress 블로그 Jekyll로 가져오기"
 categories:
   - 블로그
 gallery:
-  - url: /assets/images/posts/2020/2020-07-10-1.jpg
-    image_path: assets/images/posts/2020/2020-07-10-1.jpg
-  - url: /assets/images/posts/2020/2020-07-10-2.jpg
-    image_path: assets/images/posts/2020/2020-07-10-2.jpg
+  - url: /assets/images/posts/2020/2020-07-10-1.png
+    image_path: assets/images/posts/2020/2020-07-10-1.png
+  - url: /assets/images/posts/2020/2020-07-10-2.png
+    image_path: assets/images/posts/2020/2020-07-10-2.png
 ---
 
 블로그를 마지막으로 했던게 6년 전인가 보다. 2004년 7월에 시작해서 2014년 12월까지 글이 남아 있다. 그 동안 작성한 글의 총 개수는 295개인데 초기에 대부분의 글이 작성되었다.
@@ -30,12 +30,12 @@ gallery:
 1. 위 github 프로젝트를 clone하고 export.xml을 동일한 디렉토리로 복사한다.
 1. `npm install && node index.js` 명령 수행하면 끝!
 
-![](/assets/images/posts/2020/2020-07-10-6.jpg)
+![](/assets/images/posts/2020/2020-07-10-6.png)
 
 아주 훌률하다. 이렇게 하면 동일 경로 output 하위 각 post 별로 디렉토리가 생성되고, 거기에 `index.md`와 `images` 디렉토리가 생성된다. 폴더명 한글이 조금 아쉽지만 작성된 `index.md` 파일엔 전혀 문제가 없다.
 
-![](/assets/images/posts/2020/2020-07-10-3.jpg)
-![](/assets/images/posts/2020/2020-07-10-4.jpg)
-![](/assets/images/posts/2020/2020-07-10-5.jpg)
+![](/assets/images/posts/2020/2020-07-10-3.png)
+![](/assets/images/posts/2020/2020-07-10-4.png)
+![](/assets/images/posts/2020/2020-07-10-5.png)
 
 잔손질은 필요하다. 이미지 경로 변경하고 카테고리 입력 같은 작업을 마치고, 예전 블로그를 다시 가져오려고 한다. SI 식으로 이름을 짓자면 ``차세대 통합 프로젝트``라고 할까.
