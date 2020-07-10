@@ -25,3 +25,9 @@ codekit-config.json
 _asset_bundler_cache
 _site
 
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
