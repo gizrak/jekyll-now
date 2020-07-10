@@ -2,7 +2,6 @@
 title: "Wordpress 블로그 Jekyll로 가져오기"
 categories:
   - 블로그
-comments: true
 gallery:
   - url: /assets/images/posts/2020/2020-07-10-1.jpg
     image_path: assets/images/posts/2020/2020-07-10-1.jpg
