@@ -1,5 +1,7 @@
 ---
 title: NodeJS 기반의 stg prd 환경구축
+categories:
+  - 프로그래밍
 ---
 
 * NodeJS 기반으로 mysvc라는 이름의 서비스를 하나 구축한다.
