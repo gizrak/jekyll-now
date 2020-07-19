@@ -1,5 +1,7 @@
 ---
 title: Hibernate
+category:
+  - Data
 ---
 
 ## 개요

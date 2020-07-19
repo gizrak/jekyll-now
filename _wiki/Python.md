@@ -1,5 +1,7 @@
 ---
 title: Python
+category:
+  - Language
 ---
 
 Python은 객체지향 기능을 지원하는 대화형 인터프리터 언어이다.

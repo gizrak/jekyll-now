@@ -1,5 +1,7 @@
 ---
 title: RAID
+category:
+  - Technology
 ---
 
 `Redundant Array of Independent Disks`

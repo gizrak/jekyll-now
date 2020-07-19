@@ -1,5 +1,7 @@
 ---
 title: Unix
+category:
+  - Computer
 ---
 
 ## Unix 시스템의 개요

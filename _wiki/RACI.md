@@ -1,5 +1,7 @@
 ---
 title: RACI
+category:
+  - Process
 ---
 
 `Responsible, Accountable, Consulted, Informed`

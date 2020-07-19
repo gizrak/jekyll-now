@@ -1,7 +1,7 @@
 ---
 title: 2PC
-categories:
-  - 블로그
+category:
+  - Data
 ---
 
 `Two Phase Commit`

@@ -1,5 +1,7 @@
 ---
 title: Spring Bean
+category:
+  - Language
 ---
 
 ## Definition

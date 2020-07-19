@@ -1,5 +1,7 @@
 ---
 title: Tiny OS
+category:
+  - Computer
 ---
 
 ## Tiny OS 개요

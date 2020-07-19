@@ -1,5 +1,7 @@
 ---
 title: PIPL
+category:
+  - Security
 ---
 
 `Personal Information Protection Level`

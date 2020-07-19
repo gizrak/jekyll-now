@@ -1,5 +1,7 @@
 ---
 title: LSP
+category:
+  - Process
 ---
 
 `Liskov Substitution Principle`

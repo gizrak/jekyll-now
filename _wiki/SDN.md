@@ -1,5 +1,7 @@
 ---
 title: SDN
+category:
+  - Network
 ---
 
 `Software Defined Network`

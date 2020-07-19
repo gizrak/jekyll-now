@@ -1,5 +1,7 @@
 ---
 title: Tomcat
+category:
+  - Web
 ---
 
 ## Tomcat Apache 연계

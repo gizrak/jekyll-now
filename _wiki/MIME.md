@@ -1,5 +1,7 @@
 ---
 title: "MIME Type"
+category:
+  - Web
 ---
 
 MIME type이란 Multipurpose Internet Mail Extensions의 약어로 메시지 컨텐트 형식을 정의하기 위한 인터넷 표준을 말합니다. MIME 메시지는 텍스트, 이미지, 오디오, 비디오, 및 기타 애플리케이션의 특정 데이터를 포함할 수 있으며 일반적으로 홈페이지 상에 표현되는 멀티미디어 데이타에 대한 형식을 말합니다. 클라이언트의 웹브라우저나 웹사이트를 제공하는 웹서버에서 MIME Type이 등록되지 않는다면 사용자들은 해당하는 컨텐트를 웹브라우저에서 볼 수 없게 됩니다. 공식 MIME 정보는 IETF(Internet Engineering Task Force)에서 RFC 기준으로 정의하고 있습니다.  

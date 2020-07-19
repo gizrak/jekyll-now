@@ -1,5 +1,7 @@
 ---
 title: Spring Batch
+category:
+  - Language
 ---
 
 ## Batch

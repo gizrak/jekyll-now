@@ -1,5 +1,7 @@
 ---
 title: mod_jk
+category:
+  - Web
 ---
 
 mod_jk를 사용하면 WAS로 연결되는 요청을 Apache2로 연결할 수가 있게 된다. 이를 통해 정적 리소스를 WAS까지 가지 않고 웹서버에서 직접 처리가 가능하여 성능을 향상시킬 수도 있고, 하나의 웹서버에 다수의 WAS를 구성하여 Load Balancing도 할 수 있다.

@@ -1,5 +1,7 @@
 ---
 title: HOLAP
+category:
+  - Data
 ---
 
 `Hybrid OLAP`

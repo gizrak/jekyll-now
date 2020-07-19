@@ -1,5 +1,7 @@
 ---
 title: BSC
+category:
+  - Process
 ---
 
 `Balanced Scorecard`

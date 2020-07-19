@@ -1,5 +1,7 @@
 ---
 title: UWB
+category:
+  - Network
 ---
 
 `Ultra WideBand`

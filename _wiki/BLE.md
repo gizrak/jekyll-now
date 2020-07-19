@@ -1,5 +1,7 @@
 ---
 title: BLE
+category:
+  - Network
 ---
 
 `Bluetooth Low Energy`

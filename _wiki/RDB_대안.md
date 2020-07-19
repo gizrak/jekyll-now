@@ -1,5 +1,7 @@
 ---
 title: RDB 대안
+category:
+  - Data
 ---
 
 RDB 대안에 NoSQL만 있는 것은 아니다.

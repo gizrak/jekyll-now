@@ -1,5 +1,7 @@
 ---
 title: OLAP
+category:
+  - Data
 ---
 
 `Online Analytical Processing`

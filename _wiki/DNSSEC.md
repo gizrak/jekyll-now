@@ -1,5 +1,7 @@
 ---
 title: DNSSEC
+category:
+  - Network
 ---
 
 `DNS Security Extensions`

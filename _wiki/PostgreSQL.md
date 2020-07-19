@@ -1,5 +1,7 @@
 ---
 title: PostgreSQL
+category:
+  - Data
 ---
 
 ## 설치하기

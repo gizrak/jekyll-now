@@ -1,5 +1,7 @@
 ---
 title: RHCA
+category:
+  - Technology
 ---
 
 `Red Hat Certified Architect`

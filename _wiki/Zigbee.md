@@ -1,5 +1,7 @@
 ---
 title: Zigbee
+category:
+  - Network
 ---
 
 ## Zigbee의 정의

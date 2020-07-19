@@ -1,5 +1,7 @@
 ---
 title: CEP
+category:
+  - Network
 ---
 
 `Complex Event Processing`

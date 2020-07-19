@@ -1,5 +1,7 @@
 ---
 title: HTML5
+category:
+  - Web
 ---
 
 ## HTML5의 개요

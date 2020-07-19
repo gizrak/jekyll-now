@@ -12,9 +12,13 @@ author_profile: true
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
-
-    {% for item in site.wiki %}
-	  <a href="{{ item.url }}">{{ item.title }}</a>,&nbsp;
-	{% endfor %}
+    
+    {% assign groups = site.wiki | group_by: "category" | sort: "name" %}
+    {% for group in groups %}
+        <h3>{{ group.name | remove: '["' | remove: '"]' }}</h3>
+        {% for item in group.items %}
+            <a href="{{ item.url }}">{{ item.title }}</a>,&nbsp;
+        {% endfor %}
+    {% endfor %}
    </div>
 </div>

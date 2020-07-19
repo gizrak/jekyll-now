@@ -1,5 +1,7 @@
 ---
 title: IPS
+category:
+  - Security
 ---
 
 `Intrusion Prevention System`

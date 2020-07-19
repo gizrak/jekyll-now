@@ -1,5 +1,7 @@
 ---
 title: PhpMyAdmin
+category:
+  - Data
 ---
 
 ## 로그인 시간 연장

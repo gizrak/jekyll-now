@@ -1,5 +1,7 @@
 ---
 title: SDLC
+category:
+  - Process
 ---
 
 `System Development Life Cycle`

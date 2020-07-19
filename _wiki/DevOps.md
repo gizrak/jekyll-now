@@ -1,5 +1,7 @@
 ---
 title: DevOps
+category:
+  - Process
 ---
 
 ## 개발과 운영의 통합, DevOps의 개념

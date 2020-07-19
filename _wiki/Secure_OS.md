@@ -1,5 +1,7 @@
 ---
 title: Secure OS
+category:
+  - Computer
 ---
 
 ## Secure OS의 개요

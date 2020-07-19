@@ -1,5 +1,7 @@
 ---
 title: SyncML
+category:
+  - Web
 ---
 
 ## SyncML 개요

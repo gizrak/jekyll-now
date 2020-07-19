@@ -1,5 +1,7 @@
 ---
 title: Run Level
+category:
+  - Computer
 ---
 
 시스템 관리의 용이함을 위하여 서비스의 실행을 단계별로 구분하여 적용하는 것

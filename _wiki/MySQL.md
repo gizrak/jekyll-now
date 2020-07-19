@@ -1,5 +1,7 @@
 ---
 title: MySQL
+category:
+  - Data
 ---
 
 * MySQL 데이터타입: <http://ra2kstar.tistory.com/82>

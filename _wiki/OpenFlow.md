@@ -1,5 +1,7 @@
 ---
 title: OpenFlow
+category:
+  - Network
 ---
 
 ## OpenFlow의 정의

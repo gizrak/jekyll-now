@@ -1,5 +1,7 @@
 ---
 title: WebGL
+category:
+  - Web
 ---
 
 ## WebGL 강좌

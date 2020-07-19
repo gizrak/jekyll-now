@@ -1,5 +1,7 @@
 ---
 title: AVL Tree
+category:
+  - Computer
 ---
 
 ## AVL 트리의 개요

@@ -1,5 +1,7 @@
 ---
 title: NoSQL
+category:
+  - Data
 ---
 
 ## NoSQL의 개요

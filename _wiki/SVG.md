@@ -1,5 +1,7 @@
 ---
 title: SVG
+category:
+  - Web
 ---
 
 `Scalable Vector Graphics`

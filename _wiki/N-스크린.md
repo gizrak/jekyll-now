@@ -1,5 +1,7 @@
 ---
 title: N-스크린
+category:
+  - Web
 ---
 
 ## N-스크린의 개요

@@ -1,5 +1,7 @@
 ---
 title: Apache
+category:
+  - Web
 ---
 
 ## access log에 응답시간 기록
