@@ -1,7 +1,7 @@
 ---
 title: RHCA
 category:
-  - Technology
+  - 자격증
 ---
 
 `Red Hat Certified Architect`
