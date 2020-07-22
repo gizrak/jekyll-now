@@ -10,13 +10,13 @@ category:
 
 |코드명|과정|자격 시험|비고|
 |----|---|-------|---|
-|RH200|RHCSA Rapid Track Course with Exam|EX200||
-|RH300|RHCE Rapid Track Course with RHCSA and RHCE Exams|EX300||
-|RH318|Red Hat Virtualization Administration|EX318|EX300 필수|
-|RH401|Red Hat Enterprise Deployment and Systems Management|EX401|EX300 필수|
-|RH413|Red Hat Server Hardning|EX413|EX300 필수|
-|RH436|Red Hat Enterprise Clustering and Storage Management|EX436|EX300 필수|
-|RH442|Red Hat Enterprise Performance Tuning|EX442|EX300 필수|
+|[RH200](/wiki/cert/RHCA/RH200)|RHCSA Rapid Track Course with Exam|[EX200](/wiki/cert/RHCA/EX200)||
+|[RH300](/wiki/cert/RHCA/RH300)|RHCE Rapid Track Course with RHCSA and RHCE Exams|[EX300](/wiki/cert/RHCA/EX300)||
+|[RH318](/wiki/cert/RHCA/RH318)|Red Hat Virtualization Administration|[EX318](/wiki/cert/RHCA/EX318)|EX300 필수|
+|[RH401](/wiki/cert/RHCA/RH401)|Red Hat Enterprise Deployment and Systems Management|[EX401](/wiki/cert/RHCA/EX401)|EX300 필수|
+|[RH413](/wiki/cert/RHCA/RH413)|Red Hat Server Hardning|[EX413](/wiki/cert/RHCA/EX413)|EX300 필수|
+|[RH436](/wiki/cert/RHCA/RH436)|Red Hat Enterprise Clustering and Storage Management|[EX436](/wiki/cert/RHCA/EX436)|EX300 필수|
+|[RH442](/wiki/cert/RHCA/RH442)|Red Hat Enterprise Performance Tuning|[EX442](/wiki/cert/RHCA/EX442)|EX300 필수|
 
 |자격명|자격명 전체|자격 조건|
 |----|--------|-------|

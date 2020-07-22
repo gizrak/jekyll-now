@@ -17,7 +17,9 @@ author_profile: true
     {% for group in groups %}
         <h3>{{ group.name | remove: '["' | remove: '"]' }}</h3>
         {% for item in group.items %}
-            <a href="{{ item.url }}">{{ item.title }}</a>,&nbsp;
+            {% if item.hidden != true %}
+                <a href="{{ item.url }}">{{ item.title }}</a>,&nbsp;
+            {% endif %}
         {% endfor %}
     {% endfor %}
    </div>
