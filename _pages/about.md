@@ -3,6 +3,7 @@ layout: page
 title: "About"
 permalink: /about/
 toc: true
+toc_ads : true
 toc_sticky: true
 last_modified_at: 2020-07-05T21:31:09+09:00
 ---
