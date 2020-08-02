@@ -3,10 +3,10 @@ title: "Wordpress 블로그 Jekyll로 가져오기"
 categories:
   - 블로그
 gallery:
-  - url: /assets/images/posts/2020/2020-07-10-1.png
-    image_path: assets/images/posts/2020/2020-07-10-1.png
-  - url: /assets/images/posts/2020/2020-07-10-2.png
-    image_path: assets/images/posts/2020/2020-07-10-2.png
+  - url: /assets/images/posts/2020/07/2020-07-10-1.png
+    image_path: assets/images/posts/2020/07/2020-07-10-1.png
+  - url: /assets/images/posts/2020/07/2020-07-10-2.png
+    image_path: assets/images/posts/2020/07/2020-07-10-2.png
 ---
 
 블로그를 마지막으로 했던게 6년 전인가 보다. 2004년 7월에 시작해서 2014년 12월까지 글이 남아 있다. 그 동안 작성한 글의 총 개수는 295개인데 초기에 대부분의 글이 작성되었다.
