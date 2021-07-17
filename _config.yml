@@ -321,3 +321,7 @@ defaults:
       toc: true
       toc_ads: true
       toc_sticky: true
+
+# Github
+github: [metadata]
+
